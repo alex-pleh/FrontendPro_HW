@@ -17,3 +17,5 @@
     - Когда все файлы добавлены и `git status` подсвечивает их зеленым цветом, закоммитить изменения командой `git commit -m "message text..."`
     - Когда все изменения закоммичены и `git status` не выводит больше незакоммиченых файлов, запушить все в репозиторий командой `git push origin`
 4. Создать pull-request своей ветки в ветку с домашним заданием с помощью графического интерфейса github. 
+![image](https://user-images.githubusercontent.com/15275759/116479821-f2f39380-a888-11eb-9755-6a91e148c7fd.png)
+![image](https://user-images.githubusercontent.com/15275759/116480327-d015af00-a889-11eb-973e-3c45948b5c1c.png)
