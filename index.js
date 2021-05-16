@@ -41,6 +41,9 @@ let personInfo = {
     height: null,
     isMarried: null,
     hasChildren: null,
+
+
+
 }
 
 
