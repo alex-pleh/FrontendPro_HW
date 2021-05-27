@@ -15,7 +15,10 @@
 # - использовать if else или switch case для вызова необходимой функции. 
 */
 //1)
-let arr = [undefined, null];
+let arr =[];
+let x;
+arr.push(alert(x));
+arr.push(null);
 arr.push(prompt("String", 'Hello'));
 arr.push(+prompt("Number", 100));
 arr.push(confirm("True(OK) or false(Отмена)"));
@@ -26,53 +29,53 @@ arr.push({position: prompt("Position", "Manager") , salary: +prompt("Salary", 10
 console.log(arr);
 
 // 2)
-
-let firstNum;
-let secondNum;
-do {
-    firstNum = +prompt("Please enter first number");
-    console.log(firstNum);
-    if(isNaN(firstNum)){
-        alert("You enter not a number, please try again");
-        console.log("You enter not a number, please try again");
-    }
-}
-while (isNaN(firstNum));
-
-const typeOperation = prompt("Please enter which operation do you want");
-console.log(typeOperation);
-
-do {
-    secondNum = +prompt("Please enter second number");
-    console.log(secondNum);
-    if(isNaN(secondNum)){
-        alert("You enter not a number, please try again");
-        console.log("You enter not a number, please try again");
-    }
-}
-while (isNaN(secondNum));
-
-function calc(firstNum, secondNum, typeOperation) {
-    switch (typeOperation) {
-        case '+':
-            return firstNum + secondNum;
-            break;
-        case '-':
-            return firstNum - secondNum;
-            break;
-        case '*':
-            return firstNum * secondNum;
-            break;
-        case '/':
-            return firstNum / secondNum;
-            break;
-        case '%':
-            return firstNum % secondNum;
-            break;
-        default:
-            return "You enter incorrect operation"
-    }
-}
-
-alert("Result: " + calc(firstNum, secondNum, typeOperation));
-console.log(("Result: "  + calc(firstNum, secondNum, typeOperation)));
+//
+// let firstNum;
+// let secondNum;
+// do {
+//     firstNum = +prompt("Please enter first number");
+//     console.log(firstNum);
+//     if(isNaN(firstNum)){
+//         alert("You enter not a number, please try again");
+//         console.log("You enter not a number, please try again");
+//     }
+// }
+// while (isNaN(firstNum));
+//
+// const typeOperation = prompt("Please enter which operation do you want");
+// console.log(typeOperation);
+//
+// do {
+//     secondNum = +prompt("Please enter second number");
+//     console.log(secondNum);
+//     if(isNaN(secondNum)){
+//         alert("You enter not a number, please try again");
+//         console.log("You enter not a number, please try again");
+//     }
+// }
+// while (isNaN(secondNum));
+//
+// function calc(firstNum, secondNum, typeOperation) {
+//     switch (typeOperation) {
+//         case '+':
+//             return firstNum + secondNum;
+//             break;
+//         case '-':
+//             return firstNum - secondNum;
+//             break;
+//         case '*':
+//             return firstNum * secondNum;
+//             break;
+//         case '/':
+//             return firstNum / secondNum;
+//             break;
+//         case '%':
+//             return firstNum % secondNum;
+//             break;
+//         default:
+//             return "You enter incorrect operation"
+//     }
+// }
+//
+// alert("Result: " + calc(firstNum, secondNum, typeOperation));
+// console.log(("Result: "  + calc(firstNum, secondNum, typeOperation)));
